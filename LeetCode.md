@@ -134,3 +134,16 @@
 ### 7. 总结
 
 **当我们遇到了要快速判断一个元素是否出现集合里的时候，就要考虑哈希法**。但是哈希法也是。
+
+## 2. 202 快乐数
+
+set重复 
+
+# Git issue tips
+
+```
+Git: fatal: bad object refs/remotes/origin/main 2
+
+git remote prune origin
+```
+
