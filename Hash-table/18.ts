@@ -3,7 +3,7 @@ function fourSum(nums: number[], target: number): number[][] {
     nums.sort((a, b) => a-b);
     for(let k = 0; k < nums.length; k++) {
         if(nums[k]>target && nums[k]>=0){
-            return arr;
+            break;
         } 
 
         if(k>0&&nums[k] == nums[k-1]){
@@ -12,7 +12,7 @@ function fourSum(nums: number[], target: number): number[][] {
 
         for(let i = k+1; i < nums.length; i++){
             if(nums[k]+nums[i] > target && nums[k]+nums[i]>=0){
-                return arr;
+                break;
             }
             if(i>k+1&& nums[i]===nums[i-1]){
                 continue;
